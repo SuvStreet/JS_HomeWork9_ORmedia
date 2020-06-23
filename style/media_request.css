@@ -1,0 +1,9 @@
+@media (max-width: 650px) {
+    .content .info .poroda {
+        margin: 0;
+    }
+    .content .info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
