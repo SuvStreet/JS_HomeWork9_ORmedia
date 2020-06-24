@@ -1,9 +1,82 @@
-@media (max-width: 650px) {
-    .content .info .poroda {
-        margin: 0;
+@media (max-height: 800px) {
+    .content .formBtnAnimals .cat {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
     }
-    .content .info {
+    .content .formBtnAnimals .dog {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .resultInfo .positionGridCard{
+        grid-template-columns: repeat(9, 90px);
+    }
+}
+
+@media (max-width: 920px) {
+    .resultInfo .positionGridCard{
+        grid-template-columns: repeat(8, 90px);
+    }
+}
+
+@media (max-width: 870px) {
+    .content .formBtnAnimals{
         flex-direction: column;
         align-items: center;
+        height: 100vh;
+    }
+    .interview .formAssessment span,
+    .resultInfo .returnBtn2 span{
+        display: none;
+    }
+    .interview .formAssessment button,
+    .resultInfo .returnBtn2{
+        width: 50px;
+    }
+}
+
+@media (max-width: 820px) {
+    .resultInfo .positionGridCard{
+        grid-template-columns: repeat(7, 90px);
+    }
+}
+
+@media (max-width: 720px) {
+    .resultInfo .positionGridCard{
+        grid-template-columns: repeat(6, 90px);
+    }
+}
+
+@media (max-width: 620px) {
+    .resultInfo .positionGridCard{
+        grid-template-columns: repeat(5, 90px);
+    }
+}
+
+@media (max-width: 520px) {
+    .resultInfo .positionGridCard{
+        grid-template-columns: repeat(4, 90px);
+    }
+}
+
+@media (max-width: 420px) {
+    .resultInfo .positionGridCard{
+        grid-template-columns: repeat(3, 90px);
+    }
+}
+
+@media (max-width: 360px) {
+    .resultInfo .see .voidPicture {
+        margin-top: -450px;
+    }
+    .resultInfo .see .messageEmptyArray p{
+        margin-top: -100px;
+    }
+    .resultInfo .positionGridCard{
+        grid-template-columns: repeat(2, 90px);
     }
 }

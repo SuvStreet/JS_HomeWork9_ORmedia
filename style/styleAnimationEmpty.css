@@ -1,0 +1,428 @@
+.resultInfo .see .voidPicture .cssload-container {
+	height: 188px;
+	left: 50%;
+	margin: -94px 0 0 -66px;
+	position: absolute;
+	width: 133px;
+	text-align:center;
+}
+
+.resultInfo .see .voidPicture .cssload-cord{
+	padding-top:125px;
+	width:19px;
+	transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+	transform-origin:50% 50%;
+		-o-transform-origin:50% 50%;
+		-ms-transform-origin:50% 50%;
+		-webkit-transform-origin:50% 50%;
+		-moz-transform-origin:50% 50%;
+	float:left;
+}
+
+.resultInfo .see .voidPicture .cssload-ball{
+	background:rgb(51,51,51);
+	width:19px;
+	height:19px;
+	float:left;
+	border-radius:50%;
+}
+
+.resultInfo .see .voidPicture .cssload-shadows{
+	clear:left;
+	padding-top:25px;
+	margin-left:-3px;
+}
+
+.resultInfo .see .voidPicture .cssload-shadows div{
+	float:left;
+	margin-left: 3px;
+	width:16px;
+	height:4px;
+	border-radius:50%;
+	background: rgba(204,204,204,0.3);
+	box-shadow: 0px 0px 4px rgba(204,204,204,0.3);
+		-o-box-shadow: 0px 0px 4px rgba(204,204,204,0.3);
+		-ms-box-shadow: 0px 0px 4px rgba(204,204,204,0.3);
+		-webkit-box-shadow: 0px 0px 4px rgba(204,204,204,0.3);
+		-moz-box-shadow: 0px 0px 4px rgba(204,204,204,0.3);
+}
+
+.resultInfo .see .voidPicture .cssload-leftMove{
+	animation: leftcssload-ball 0.58s ease-in-out 0s infinite alternate;
+		-o-animation: leftcssload-ball 0.58s ease-in-out 0s infinite alternate;
+		-ms-animation: leftcssload-ball 0.58s ease-in-out 0s infinite alternate;
+		-webkit-animation: leftcssload-ball 0.58s ease-in-out 0s infinite alternate;
+		-moz-animation: leftcssload-ball 0.58s ease-in-out 0s infinite alternate;
+}
+
+.resultInfo .see .voidPicture .cssload-rightMove{
+	animation: rightcssload-ball 0.58s ease-in-out 0s infinite alternate;
+		-o-animation: rightcssload-ball 0.58s ease-in-out 0s infinite alternate;
+		-ms-animation: rightcssload-ball 0.58s ease-in-out 0s infinite alternate;
+		-webkit-animation: rightcssload-ball 0.58s ease-in-out 0s infinite alternate;
+		-moz-animation: rightcssload-ball 0.58s ease-in-out 0s infinite alternate;
+}
+
+.resultInfo .see .voidPicture .cssload-leftShadow{
+	animation: cssload-leftShadowN 0.58s ease-in-out 0s infinite alternate;
+		-o-animation: cssload-leftShadowN 0.58s ease-in-out 0s infinite alternate;
+		-ms-animation: cssload-leftShadowN 0.58s ease-in-out 0s infinite alternate;
+		-webkit-animation: cssload-leftShadowN 0.58s ease-in-out 0s infinite alternate;
+		-moz-animation: cssload-leftShadowN 0.58s ease-in-out 0s infinite alternate; 
+}
+
+.resultInfo .see .voidPicture .cssload-rightShadow{
+	animation: cssload-rightShadowN 0.58s ease-in-out 0s infinite alternate;
+		-o-animation: cssload-rightShadowN 0.58s ease-in-out 0s infinite alternate;
+		-ms-animation: cssload-rightShadowN 0.58s ease-in-out 0s infinite alternate;
+		-webkit-animation: cssload-rightShadowN 0.58s ease-in-out 0s infinite alternate;
+		-moz-animation: cssload-rightShadowN 0.58s ease-in-out 0s infinite alternate; 
+}
+
+/*colors*/
+
+.resultInfo .see .voidPicture .cssload-cord:nth-of-type(1) .cssload-ball{
+	background:rgb(51,86,114);
+}
+.resultInfo .see .voidPicture .cssload-cord:nth-of-type(2) .cssload-ball{
+	background:rgb(53,80,107);
+}
+.resultInfo .see .voidPicture .cssload-cord:nth-of-type(3) .cssload-ball{
+	background:rgb(95,78,96);
+}
+.resultInfo .see .voidPicture .cssload-cord:nth-of-type(4) .cssload-ball{
+	background:rgb(146,74,78);
+}
+.resultInfo .see .voidPicture .cssload-cord:nth-of-type(5) .cssload-ball{
+	background:rgb(167,58,51);
+}
+.resultInfo .see .voidPicture .cssload-cord:nth-of-type(6) .cssload-ball{
+	background:rgb(207,66,49);
+}
+.resultInfo .see .voidPicture .cssload-cord:nth-of-type(7) .cssload-ball{
+	background:rgb(223,62,42);
+}
+
+@keyframes leftcssload-ball
+{
+0% {
+	transform: rotate(0deg) translateY(0px);
+	}
+
+50% {
+	transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	transform: rotate(50deg) translateY(-25px);
+	}
+}
+
+@-o-keyframes leftcssload-ball
+{
+0% {
+	-o-transform: rotate(0deg) translateY(0px);
+	}
+
+50% {
+	-o-transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	-o-transform: rotate(50deg) translateY(-25px);
+	}
+}
+
+@-ms-keyframes leftcssload-ball
+{
+0% {
+	-ms-transform: rotate(0deg) translateY(0px);
+	}
+
+50% {
+	-ms-transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	-ms-transform: rotate(50deg) translateY(-25px);
+	}
+}
+
+@-webkit-keyframes leftcssload-ball
+{
+0% {
+	-webkit-transform: rotate(0deg) translateY(0px);
+	}
+
+50% {
+	-webkit-transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	-webkit-transform: rotate(50deg) translateY(-25px);
+	}
+}
+
+@-moz-keyframes leftcssload-ball
+{
+0% {
+	-moz-transform: rotate(0deg) translateY(0px);
+	}
+
+50% {
+	-moz-transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	-moz-transform: rotate(50deg) translateY(-25px);
+	}
+}
+
+@keyframes rightcssload-ball
+{
+0% {
+	transform: rotate(-50deg) translateY(-25px);
+	}
+
+50% {
+	transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	transform: rotate(0deg) translateY(0px);
+	}
+}
+
+@-o-keyframes rightcssload-ball
+{
+0% {
+	-o-transform: rotate(-50deg) translateY(-25px);
+	}
+
+50% {
+	-o-transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	-o-transform: rotate(0deg) translateY(0px);
+	}
+}
+
+@-ms-keyframes rightcssload-ball
+{
+0% {
+	-ms-transform: rotate(-50deg) translateY(-25px);
+	}
+
+50% {
+	-ms-transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	-ms-transform: rotate(0deg) translateY(0px);
+	}
+}
+
+@-webkit-keyframes rightcssload-ball
+{
+0% {
+	-webkit-transform: rotate(-50deg) translateY(-25px);
+	}
+
+50% {
+	-webkit-transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	-webkit-transform: rotate(0deg) translateY(0px);
+	}
+}
+
+@-moz-keyframes rightcssload-ball
+{
+0% {
+	-moz-transform: rotate(-50deg) translateY(-25px);
+	}
+
+50% {
+	-moz-transform: rotate(0deg) translateY(0px);
+	}
+100% {
+	-moz-transform: rotate(0deg) translateY(0px);
+	}
+}
+
+@keyframes cssload-leftShadowN
+{
+0% {
+transform: translateX(0px);
+		
+		
+	}
+
+50% {
+	transform: translateX(0px);
+
+	}
+
+100% {
+	
+transform: translateX(-31px);
+	}
+}
+
+@-o-keyframes cssload-leftShadowN
+{
+0% {
+-o-transform: translateX(0px);
+		
+		
+	}
+
+50% {
+	-o-transform: translateX(0px);
+
+	}
+
+100% {
+	
+-o-transform: translateX(-31px);
+	}
+}
+
+@-ms-keyframes cssload-leftShadowN
+{
+0% {
+-ms-transform: translateX(0px);
+		
+		
+	}
+
+50% {
+	-ms-transform: translateX(0px);
+
+	}
+
+100% {
+	
+-ms-transform: translateX(-31px);
+	}
+}
+
+@-webkit-keyframes cssload-leftShadowN
+{
+0% {
+-webkit-transform: translateX(0px);
+		
+		
+	}
+
+50% {
+	-webkit-transform: translateX(0px);
+
+	}
+
+100% {
+	
+-webkit-transform: translateX(-31px);
+	}
+}
+
+@-moz-keyframes cssload-leftShadowN
+{
+0% {
+-moz-transform: translateX(0px);
+		
+		
+	}
+
+50% {
+	-moz-transform: translateX(0px);
+
+	}
+
+100% {
+	
+-moz-transform: translateX(-31px);
+	}
+}
+
+@keyframes cssload-rightShadowN
+{
+0% {
+	transform: translateX(31px);
+	}
+
+50% {
+	transform: translateY(0px);
+
+	}
+
+100% {
+	transform: translateY(0px);
+
+	}
+}
+
+@-o-keyframes cssload-rightShadowN
+{
+0% {
+	transform: translateX(31px);
+	}
+
+50% {
+	-o-transform: translateY(0px);
+
+	}
+
+100% {
+	-o-transform: translateY(0px);
+
+	}
+}
+
+@-ms-keyframes cssload-rightShadowN
+{
+0% {
+	transform: translateX(31px);
+	}
+
+50% {
+	-ms-transform: translateY(0px);
+
+	}
+
+100% {
+	-ms-transform: translateY(0px);
+
+	}
+}
+
+@-webkit-keyframes cssload-rightShadowN
+{
+0% {
+	transform: translateX(31px);
+	}
+
+50% {
+	-webkit-transform: translateY(0px);
+
+	}
+
+100% {
+	-webkit-transform: translateY(0px);
+
+	}
+}
+
+@-moz-keyframes cssload-rightShadowN
+{
+0% {
+	transform: translateX(31px);
+	}
+
+50% {
+	-moz-transform: translateY(0px);
+
+	}
+
+100% {
+	-moz-transform: translateY(0px);
+
+	}
+}
